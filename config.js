@@ -6,7 +6,7 @@ module.exports = {
   SECRET_KEY: "BRwIpnT3R'{G8):",
 
   //gmail credentials for send email
-  EMAIL: "jorge.sanchez.r76@gmail.com",
+  EMAIL: "kawaiicallcontact@gmail.com",
   PASSWORD: "jhmc unay raqk odqn",
 
   //secret key for jwt
