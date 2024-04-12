@@ -3,18 +3,18 @@ module.exports = {
   PORT: process.env.PORT || 5000,
 
   //secret key for API
-  SECRET_KEY: "BRwIpnT3R'{G8):",
+  SECRET_KEY: "lPhXzI3Fv;TF(>R",
 
   //gmail credentials for send email
-  EMAIL: "kawaiicallcontact@gmail.com",
-  PASSWORD: "jhmc unay raqk odqn",
+  EMAIL: "flirtzyapp@gmail.com",
+  PASSWORD: "",
 
   //secret key for jwt
-  JWT_SECRET: "PdvkTLyxc7",
+  JWT_SECRET: "XtC9fWcBSf",
 
   //baseUrl
   baseURL: "http://localhost/",
 
   //firebase server key for notification
-  SERVER_KEY: "AAAABadCSHk:APA91bF8E_NeFW_yiHDgz8zlUtPqEkcHsaljobWsod6c7Pj7T_E8W-urhLrIO3VIWGtSvYXFnvavVkq_5Likv87d4lX6StAUBbdH8LqslXyQXyo_MPZDg4zZz0gQJvNCitmwSVwz_NXa",
+  SERVER_KEY: "AAAA4LFLVd0:APA91bFPLs9GOXoiRvlIf044DAvkGQkK_lsqu7tjb5_ygA2pmJr20TAEWn9R_EG3xEzy94_m2k03Rus6y1JvqykemWfLfeOePEr2JvGi0ks7eMfUwhm8aRTpulPgNydyQXmUdgd4laJr",
 };

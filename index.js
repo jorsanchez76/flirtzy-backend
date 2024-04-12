@@ -135,7 +135,7 @@ app.get("/*", function (req, res) {
 
 //mongodb connection
 mongoose.connect(
-  `mongodb+srv://FlirtzyAppJSR:Fd7K3JKZheyeFt3U@cluster0.jr4fxbf.mongodb.net/`,
+  `mongodb+srv://flirtzyapp:uKLslH9hzaRKsScI@flirtzyappc0.scnqkke.mongodb.net/FlirtzyAppDB`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
