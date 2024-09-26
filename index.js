@@ -135,7 +135,7 @@ app.get("/*", function (req, res) {
 
 //mongodb connection
 mongoose.connect(
-  `mongodb+srv://FlirtzyAppJSR:Fd7K3JKZheyeFt3U@cluster0.jr4fxbf.mongodb.net/`,
+  `mongodb+srv://flirtzyapp:uKLslH9hzaRKsScI@flirtzyappc0.scnqkke.mongodb.net/FlirtzyAppDB`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -160,11 +160,13 @@ io.on("connect", async (socket) => {
   console.log("Socket Connect Successfully!!");
 
   const { globalRoom } = socket.handshake.query;
+      
   // JSR 20240830
   const port = socket.conn.request.connection.localPort;
   console.log("SOCKET PORT -:$", port);
   console.log("SOCKET QUERY -:$", socket.handshake.query);
   console.log("SOCKET SOCKET -:$", socket);
+      
   console.log("------globalRoom------", globalRoom);
 
   //ChatRoom Global Socket
